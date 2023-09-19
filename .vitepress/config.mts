@@ -5,6 +5,7 @@ export default defineConfig({
   title: "ww-docs",
   description: "日常常用文档",
   lastUpdated: true,
+  base: '/vitepress-docs/',
   themeConfig: {
     logo: '/assets/logo.jpg',
     search: {
