@@ -1,0 +1,41 @@
+/*
+* @Author: NiKai
+* @Date:   2018-12-06 17:57:39
+* @Last Modified by:   NiKai
+* @Last Modified time: 2018-12-17 13:55:54
+*/
+.fcr{
+    color: red;
+}
+[v-cloak]{
+    display: none;
+}
+
+/* themeable 样式 */
+:root {
+    
+    --sidebar-nav-link-before-content: '🐶';
+    --base-font-size: 14px;
+
+    --zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
+
+    /* 标题字体 粗细  */
+
+    --heading-h1-font-weight: 800;
+    --heading-h2-font-weight: 700;
+    --heading-h3-font-weight: 600;
+    --heading-h4-font-weight: 500;
+}
+
+
+
+table {
+    display: table;
+}
+/* 🍎  */
+
+/* .sidebar-nav>ul>li>ul>li>a:before {
+    content: var(--sidebar-nav-link-before-content);
+    margin: var(--sidebar-nav-link-before-margin);
+    color: var(--sidebar-nav-link-before-color);
+} */
