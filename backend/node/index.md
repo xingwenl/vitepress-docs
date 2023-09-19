@@ -95,7 +95,7 @@ yrm use taobao
 YARN Registry has been set to: https://registry.npm.taobao.org/
 ```
 
-> [http://www.cnblogs.com/linjiqin/p/3765772.html](URL)
+> http://www.cnblogs.com/linjiqin/p/3765772.html
 
 - **n**
 

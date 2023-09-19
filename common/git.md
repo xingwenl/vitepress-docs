@@ -175,7 +175,7 @@ helper = store
 ## git 配置
 ### 别名， git命令简写
 `vi ~/.gitconfig`
-```conf
+```txt
 [user]
 	email = ********@qq.com
 	name = ******

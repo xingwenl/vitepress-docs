@@ -29,7 +29,7 @@ nginx 不仅支持 http 协议，还支持 https（即在ssl协议上传输http�
 
 ### 下载Nginx
 
-[https://nginx.org/en/download.html](URL)
+> https://nginx.org/en/download.html
 
 我的下载路径
 
@@ -529,8 +529,8 @@ cp ./objs/nginx /usr/local/nginx/sbin/
 ```
 
 ### 参考文档
-> [https://www.jianshu.com/p/717f2b88d057](URL)
-> [http://www.linuxidc.com/Linux/2016-09/134907.htm](URL)
+> https://www.jianshu.com/p/717f2b88d057
+> http://www.linuxidc.com/Linux/2016-09/134907.htm
 
 - 启动Nginx时候报错：nginx: [error] open() “/usr/local/nginx/logs/nginx.pid” failed (2: No such file or directory)
 情况一：nginx.conf的nginx.pid被注释了

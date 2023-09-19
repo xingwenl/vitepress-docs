@@ -13,7 +13,6 @@
 
 ##### 2. 组件样式导入：
 
-[默认ES6方式导入](/view/web/ES6.md?id=_14-模块)。
 
 ```
   import { Component } from 'react';

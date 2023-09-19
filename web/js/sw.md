@@ -24,7 +24,7 @@ Service Worker 是一种 Web Worker。它本质上是一个与主浏览器线程
 
 ## Service Worker生命周期
 
-![sw](../../../assets/sw/1.png)
+![sw](/assets/sw/1.png)
 
 - register 这个是在client端发起，注册一个serviceWorker， 需要一个专门处理sw逻辑的文件
 - Parsed 注册完成，解析成功，尚未安装

@@ -93,4 +93,4 @@ https://gems.ruby-china.org/
 
 
 
-> [https://www.jianshu.com/p/9e4e36ba8574](URL)
+> https://www.jianshu.com/p/9e4e36ba8574

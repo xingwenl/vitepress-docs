@@ -49,7 +49,7 @@ rsync -azhq --delete $SRCPATH --exclude '.git' --exclude-from './ignore.txt' -e 
 done
 ```
 
-> [具体 rsync 用法](view/common/rsync.md)
+> [具体 rsync 用法](/common/rsync.md)
 
 ## 文件权限
 

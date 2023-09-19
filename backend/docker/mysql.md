@@ -37,7 +37,7 @@ networks:
     name: mysql
 ```
 
-```my.cnf
+```txt
 Last login: Mon Dec  6 22:16:29 on ttys003
 ^[[A%                                                                                                                                                                               ➜  ~ ssh root@106.14.147.123
 Last failed login: Mon Dec  6 22:18:53 CST 2021 from 47.106.250.53 on ssh:notty

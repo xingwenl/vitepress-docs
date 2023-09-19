@@ -6,6 +6,7 @@ export default defineConfig({
   description: "日常常用文档",
   lastUpdated: true,
   themeConfig: {
+    logo: '/assets/logo.jpg',
     search: {
       provider: 'local'
     },
@@ -110,6 +111,59 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: '常用js',
+          link: '/web/js/',
+          collapsed: true,
+          items: [
+            {
+              text: '常用方法',
+              link: '/web/js/utils'
+            },
+            {
+              text: 'es6',
+              link: '/web/js/es6'
+            },
+            {
+              text: 'Service Worker',
+              link: '/web/js/sw'
+            },
+            {
+              text: 'echart',
+              link: '/web/js/echart'
+            },
+            {
+              text: '常用验证',
+              link: '/web/js/validation'
+            },
+            {
+              text: '原型',
+              link: '/web/js/原型'
+            }
+          ]
+        },
+        {
+          text: '常用h5',
+          collapsed: true,
+          items: [
+            {
+              text: 'html5',
+              link: '/web/h5/HTML5'
+            },
+            {
+              text: 'iphonex适配',
+              link: '/web/h5/iphonex适配'
+            },
+            {
+              text: '登录',
+              link: '/web/h5/login'
+            },
+            {
+              text: '分享',
+              link: '/web/h5/share'
+            }
+          ]
+        }
       ],
       "/backend/": [
         {

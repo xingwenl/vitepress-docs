@@ -57,9 +57,9 @@
 
 例： 😅 我这个好像 alt 和 title 不行
 
-` ![logo](../../assets/logo.jpg "这是logo") `
+` ![logo](/assets/logo.jpg "这是logo") `
 
-![logo](../../assets/logo.jpg "这是logo")
+![logo](/assets/logo.jpg "这是logo")
 
 
 ## 超链接

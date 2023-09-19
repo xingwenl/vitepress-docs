@@ -364,7 +364,7 @@ export const aliPay = (orderString, callback) => {
 
 - 在info.plist文件 设置URL Schema， `alipay你的appid`
 
-    ![url Schema](../../../assets/rn/alipay-1.jpg)
+    ![url Schema](/assets/rn/alipay-1.jpg)
 
 AppDelegate.m
 ```c

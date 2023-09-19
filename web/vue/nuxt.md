@@ -27,7 +27,7 @@ yarn run dev
   - `package.json`
   - `nuxt.config.js`
 
-- 用[pm2](/view/backend/pm2)启动 nuxt 
+- 用[pm2](/backend/node/pm2)启动 nuxt 
 
   ```bash
   # 第一次需要安装依赖
@@ -38,9 +38,9 @@ yarn run dev
 
   
 
-### [Nginx](/view/backend/nginx) 配置
+### [Nginx](/backend/nginx) 配置
 
-```conf
+```txt
 # 通过upstream nodejs 可以配置多台nodejs节点，做负载均衡
 # keepalive 设置存活时间。如果不设置可能会产生大量的timewait
 # proxy_pass 反向代理转发 http://nodenuxt   
