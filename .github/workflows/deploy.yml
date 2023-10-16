@@ -34,7 +34,7 @@ jobs:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
       - uses: pnpm/action-setup@v2 # Uncomment this if you're using pnpm
         with:
-          version: 8
+          version: 8 #需要pnpm版本号
       # - uses: oven-sh/setup-bun@v1 # Uncomment this if you're using Bun
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -53,7 +53,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .vitepress/dist
+          path: .vitepress/dist # 正确的文件路径
 
   # Deployment job
   deploy:

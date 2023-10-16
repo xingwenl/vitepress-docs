@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "less": "^4.2.0",
     "vitepress": "1.0.0-rc.14"
   },
   "pnpm": {
@@ -22,5 +23,9 @@
         "search-insights"
       ]
     }
+  },
+  "dependencies": {
+    "mermaid": "^10.5.0",
+    "quick-svg": "^0.0.6"
   }
 }

@@ -1,11 +1,21 @@
-import { defineConfig } from "vitepress";
-
+import { defineConfig, MarkdownOptions } from "vitepress";
+// import { withMermaid } from "vitepress-plugin-mermaid";
+import MermaidExample from './config/mermaid-markdown-all';
+const allMarkdownTransformers: MarkdownOptions = {
+  // the shiki theme to highlight code blocks
+  // theme: 'github-dark',
+  config: async (md) => {
+    await MermaidExample(md);
+  },
+};
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ww-docs",
   description: "日常常用文档",
   lastUpdated: true,
   base: '/vitepress-docs/',
+  markdown: allMarkdownTransformers,
+  head: [],
   themeConfig: {
     logo: '/assets/logo.jpg',
     search: {
@@ -18,6 +28,7 @@ export default defineConfig({
       { text: "前端", link: "/web/", activeMatch: "/web/" },
       { text: "后端", link: "/backend/", activeMatch: "/backend/" },
       { text: "app", link: "/app/", activeMatch: "/app/" },
+      { text: "软考", link: "/ruankao/", activeMatch: "/ruankao/" },
     ],
 
     sidebar: {
@@ -120,6 +131,10 @@ export default defineConfig({
             {
               text: '常用方法',
               link: '/web/js/utils'
+            },
+            {
+              text: '正则的惰性与贪婪',
+              link: '/web/js/正则的惰性与贪婪'
             },
             {
               text: 'es6',
@@ -338,6 +353,12 @@ export default defineConfig({
         {
           text: "vim",
           link: "/common/vim",
+        },
+      ],
+      "/ruankao/": [
+        {
+          text: "计算机系统基础知识",
+          link: "/ruankao/计算机系统基础知识/index",
         },
       ]
     },

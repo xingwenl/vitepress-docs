@@ -2,6 +2,8 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
+import Mindmap from '../component/Mindmap.vue'
+import Mermaid from '../component/Mermaid.vue'
 
 export default {
   extends: Theme,
@@ -11,6 +13,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('Mindmap', Mindmap)
+    app.component('Mermaid', Mermaid);
     // ...
   }
 }

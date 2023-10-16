@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "Es6",
+    "module": "nodenext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "preserveSymlinks": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "types": [],
+    "paths": {
+      "@/*": [".vitepress/*"]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost",
+      "ES2022"
+    ],
+    "declaration": true,
+  },
+  "include": [
+    ".vitepress/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
